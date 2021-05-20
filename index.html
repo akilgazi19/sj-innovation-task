@@ -5,26 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cafe</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
-    <section
+    <section class="container">
 
         <!-- header -->
         <header>
             <h2>Header</h2>
+            
+            <nav>
+                <ul>
+                    <li>Menu</li>
+                    <a href="index.html">home</a>
+                    <a href="our-story.html">our story</a>
+                </ul>
+            </nav>
         </header>
 
         <!-- main -->
         <main>
-            <h2>Main</h2>
+            <!-- our menues -->
+            <div class="our-menu-container">
+                <h2 class="text-center text-gold mb-3">Our tasty menues</h2>
+                <div class="our-menu">
+                    <div class="menu">
+                        <img src="assets/images/drinks.png" alt="image">
+                        <div class="menu-overlay">
+                            <a href="#"><span>Drinks</span></a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img src="assets/images/snacks.png" alt="image">
+                        <div class="menu-overlay">
+                            <a href="#"><span>Snacks</span></a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img src="assets/images/lunch.png" alt="image">
+                        <div class="menu-overlay">
+                            <a href="#"><span>Lunch</span></a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
         </main>
 
         <!-- footer -->
         <footer>
-            <h2>Footer</h2>
+            <span>© 2016 Cafe, All rights reserved.</span>
         </footer>
 
     </section>
