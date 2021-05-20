@@ -1,0 +1,149 @@
+@media only screen and (min-width:320px) and (max-width:800px){
+    ul li{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 14px;
+    }
+    span{
+        font-size: 13px;
+    }
+    .hero-text{
+        padding-top: 15%;
+    }
+    .our-menu, .about-us, .our-story, .our-chef{
+        flex-direction: column;
+    }
+    .about, .story, .menu, .chef{
+        margin-bottom: 3%;
+    }
+    .about p{
+        text-align: center;
+    }
+    .the-restaurant{
+       padding-left: 15px;
+       padding-right: 15px;
+    }   
+}
+
+@media only screen and (min-width:801px) and (max-width:1150px){
+    .menu{
+        width: 280px;
+        height: 340px;
+    }
+    .menu img{
+        width: 280px;
+        height: 340px;
+    }
+    .menu-overlay {
+        width: 260px;
+        height: 320px;
+    }
+    .about{
+        width: 280px;
+        height: 340px;
+    }
+    .about img{
+        width: 257px;
+        height: 110px;
+    }
+    .about p{
+        width: 210px;
+    }
+    .chef{
+        width: 187px;
+        height: 360px;
+    }
+    .chef img{
+        width: 187px;
+        height: 280px;
+    }
+    .chef-overlay{
+        width: 187px;
+        height: 280px;
+        overflow: scroll;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    header{
+        height: 400px;
+    }
+    .custom-header{
+        height: 50px;
+    }
+    .responsive-logo{
+        padding:2vh 4vw;
+    }
+    .responsive-logo img {
+        display: inline-block;
+    }
+    nav{
+        position: fixed;
+        z-index: 3;
+        background-color: transparent;
+        padding: 0;
+    }
+    .hamburger{
+        display:block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        transition: all 0.7s ease;
+    }
+    .nav-links{
+        position: fixed;
+        background: #171717;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+    }
+    .nav-links.open{
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.5s ease 0.7s;
+    }
+    .nav-links li:nth-child(5){
+        transition: all 0.5s ease 0.8s;
+    }
+    .nav-links li:nth-child(6){
+        transition: all 0.5s ease 0.9s;
+        margin: 0;
+    }
+    .nav-links li:nth-child(7){
+        transition: all 0.5s ease 1s;
+        margin: 0;
+    }
+    li.fade{
+        opacity: 1;
+    }
+}
