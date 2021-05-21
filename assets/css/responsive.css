@@ -77,6 +77,7 @@
         -webkit-clip-path: circle(50px at 90% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
+        align-items: center;
     }
     .nav-links.open{
         clip-path: circle(1000px at 90% -10%);
@@ -141,16 +142,16 @@
         font-size: 13px;
     }
     .favorite{
-        width: 187px;
-        height: 260px;
+        width: 200px;
+        height: 273px;
     }
     .favorite img{
-        width: 187px;
-        height: 260px;
+        width: 200px;
+        height: 273px;
     }
     .favorite-overlay{
-        width: 187px;
-        padding: 10px 5px;
+        width: 200px;
+        padding: 5px 15px;
         text-align: center;
     }
     .menu{

@@ -110,8 +110,7 @@ nav{
     display: none;
 }
 .logo img {
-    height: 5rem;
-    width: 5rem;
+    width: 100px;
 }
 
 .nav-links{
@@ -121,7 +120,7 @@ nav{
     margin: auto;
     padding: 0 0.7vw;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: baseline;
 }
 .nav-links li a{
     text-decoration: none;
@@ -483,5 +482,5 @@ footer{
     color: #A3A3A3;
     background-color: #171717;
     text-align: center;
-    padding: 3% 0;
+    padding: 2% 0;
 }
