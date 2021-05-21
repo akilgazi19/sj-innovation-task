@@ -205,7 +205,7 @@ nav{
 /* our tasty menu */
 
 .our-menu-container{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/our-tasty-menu.png'); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/the-restaurant.jpg'); 
     width: 100%;
     opacity: 1;
     padding: 5% 0;
@@ -333,11 +333,11 @@ nav{
     align-items: center;
     justify-content: space-evenly;
 }
-.chef h2, .chef p{
+.chef h3, .chef p{
     color: #FFFFFF;
     text-align: center;
 }
-.chef h2{
+.chef h3{
     font-weight: 100;
 }
 .chef:hover .chef-overlay {
