@@ -28,8 +28,29 @@
        padding-right: 15px;
     }   
 }
-
+@media screen and (max-width: 1150px) {
+    .row {
+      display: none;
+    }
+}
+  
 @media only screen and (min-width:801px) and (max-width:1150px){
+
+    ul li{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 14px;
+    }
+    span{
+        font-size: 13px;
+    }
     .menu{
         width: 280px;
         height: 340px;

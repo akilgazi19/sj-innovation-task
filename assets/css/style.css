@@ -328,6 +328,26 @@ nav{
     color: #A3A3A3;
 }
 
+/* gallery */
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    height: 500px;
+    overflow: hidden;
+}
+  
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+}
+.column img {
+    vertical-align: middle;
+    width: 100%;
+}
+  
 /* google map */
 .google-map{
     height: 0;
