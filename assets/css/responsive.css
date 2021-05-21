@@ -8,16 +8,19 @@
     h2{
         font-size: 26px;
     }
+    h3{
+        font-size: 20px;
+    }
     p{
         font-size: 14px;
     }
     span{
         font-size: 13px;
     }
-    .our-menu, .about-us, .our-story, .our-chef{
+    .our-menu, .about-us, .our-story, .our-chef, .our-favorite{
         flex-direction: column;
     }
-    .about, .story, .menu, .chef{
+    .about, .story, .menu, .chef, .favorite{
         margin-bottom: 3%;
     }
     .about p{
@@ -26,73 +29,18 @@
     .the-restaurant{
        padding-left: 15px;
        padding-right: 15px;
-    }   
-}
-@media screen and (max-width: 1150px) {
-    .row {
-      display: none;
     }
-}
-  
-@media only screen and (min-width:801px) and (max-width:1150px){
+    .slideshow-container{
+        width: 100%;
+    }
+    .mySlides {
+        padding: 0 15%;
+    }
 
-    ul li{
-        font-size: 16px;
-    }
-    h1{
-        font-size: 70px;
-    }
-    h2{
-        font-size: 26px;
-    }
-    p{
-        font-size: 14px;
-    }
-    span{
-        font-size: 13px;
-    }
-    .menu{
-        width: 280px;
-        height: 340px;
-    }
-    .menu img{
-        width: 280px;
-        height: 340px;
-    }
-    .menu-overlay {
-        width: 260px;
-        height: 320px;
-    }
-    .about{
-        width: 280px;
-        height: 340px;
-    }
-    .about img{
-        width: 257px;
-        height: 110px;
-    }
-    .about p{
-        width: 210px;
-    }
-    .chef{
-        width: 187px;
-        height: 360px;
-    }
-    .chef img{
-        width: 187px;
-        height: 280px;
-    }
-    .chef-overlay{
-        width: 187px;
-        height: 280px;
-        overflow: scroll;
-    }
-}
+    /*navigation bar */
 
-
-@media screen and (max-width: 800px){
     header{
-        height: 400px;
+        height: 500px;
     }
     .custom-header{
         height: 50px;
@@ -163,5 +111,82 @@
     }
     li.fade{
         opacity: 1;
+    }
+}
+/* gallery */
+@media screen and (max-width: 1150px) {
+    .row {
+      display: none;
+    }
+}
+
+@media only screen and (min-width:801px) and (max-width:1150px){
+
+    ul li{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    span{
+        font-size: 13px;
+    }
+    .favorite{
+        width: 187px;
+        height: 260px;
+    }
+    .favorite img{
+        width: 187px;
+        height: 260px;
+    }
+    .favorite-overlay{
+        width: 187px;
+        padding: 10px 5px;
+        text-align: center;
+    }
+    .menu{
+        width: 280px;
+        height: 340px;
+    }
+    .menu img{
+        width: 280px;
+        height: 340px;
+    }
+    .menu-overlay {
+        width: 260px;
+        height: 320px;
+    }
+    .about{
+        width: 280px;
+        height: 340px;
+    }
+    .about img{
+        width: 257px;
+        height: 110px;
+    }
+    .about p{
+        width: 210px;
+    }
+    .chef{
+        width: 187px;
+        height: 360px;
+    }
+    .chef img{
+        width: 187px;
+        height: 280px;
+    }
+    .chef-overlay{
+        width: 187px;
+        height: 280px;
+        overflow: scroll;
     }
 }
