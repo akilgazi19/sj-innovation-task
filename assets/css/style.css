@@ -327,7 +327,7 @@ nav{
 /* google map */
 .google-map{
     height: 0;
-    padding-bottom: 30%;
+    padding-bottom: 40%;
     position: relative;
 }
 .google-map iframe{
