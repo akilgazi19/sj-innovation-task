@@ -14,9 +14,6 @@
     span{
         font-size: 13px;
     }
-    .hero-text{
-        padding-top: 15%;
-    }
     .our-menu, .about-us, .our-story, .our-chef{
         flex-direction: column;
     }
