@@ -13,6 +13,7 @@ body{
     color: #2d2d2d;
     background-image: url('../images/food.png');
     line-height: 1.4;
+    background-blend-mode:color-burn;
 }
 a{
     text-decoration: none;
